@@ -13,7 +13,7 @@ This repository contains the official implementation of **DFSMD-Net**, a deep le
 
 The DFSMD-Net framework consists of three primary components: the **Feature Extractor**, the **Dynamic Feature Self-Aggregation Attention Module**, and the **Decoder**.
 
-![Overall Architecture](./image/Overall%20architecture%20of%20deraining%20network.jpg)
+![Overall Architecture](./image/Overall%20architecture%20of%20deraining%20network.png)
 *Figure 1: Overall architecture of the multi-scale denoising network.*
 
 ### 1. Feature Extractor & Gated Residual Blocks
