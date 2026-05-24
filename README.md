@@ -16,20 +16,11 @@ The DFSMD-Net framework consists of three primary components: the **Feature Extr
 ![Overall Architecture](./image/Overall%20architecture%20of%20deraining%20network.png)
 *Figure 1: Overall architecture of the multi-scale denoising network.*
 
-### 1. Feature Extractor & Gated Residual Blocks
-The feature extractor captures high-level features directly from the input image. Concurrently, a weight-shared feature extractor extracts low-level features from a downsampled version of the input image to capture multi-scale self-attention properties. This process relies on the **Gated Fine-tuning Residual Convolutional Block**, which optimizes the information flow using local skip connections and adaptive gates.
-
 ![Gated Residual Block](./image/Gated%20fine-tuning%20residual%20convolutional%20block.png)
 *Figure 2: Structure of the Gated Fine-tuning Residual Convolutional Block.*
 
-### 2. Dynamic Feature Self-Aggregation Attention Module
-The extracted dual-scale features are fed into the **Dynamic Feature Self-Aggregation Attention Module**. By leveraging the intrinsic correlations between dynamic features, this module predicts non-local characteristics to aggregate global feature information across the network, providing robust feature representations for image restoration.
-
 ![Attention Module](./image/Dynamic%20Feature%20Self-Aggregation%20Attention%20module.png)
 *Figure 3: Detailed diagram of the Dynamic Feature Self-Aggregation Attention Module.*
-
-### 3. Decoder & Residual Learning
-Finally, the decoder maps the aggregated feature expressions back into a **Residual Image**. Multiple skip connections bridge the encoder and decoder to preserve fine structural textures. The final restored image is obtained by subtracting the predicted residual map from the original noisy input image.
 
 ---
 
