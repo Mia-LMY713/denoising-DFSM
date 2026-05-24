@@ -14,19 +14,14 @@ This repository contains the official implementation of **DFSMD-Net**, a deep le
 The DFSMD-Net framework consists of three primary components: the **Feature Extractor**, the **Dynamic Feature Self-Aggregation Attention Module**, and the **Decoder**.
 
 ![Overall Architecture](./image/Overall%20architecture%20of%20deraining%20network.png)
-*Figure 1: Overall architecture of the multi-scale denoising network.*
 
-![Gated Residual Block](./image/Gated%20fine-tuning%20residual%20convolutional%20block.png)
-*Figure 2: Structure of the Gated Fine-tuning Residual Convolutional Block.*
-
-![Attention Module](./image/Dynamic%20Feature%20Self-Aggregation%20Attention%20module.png)
-*Figure 3: Detailed diagram of the Dynamic Feature Self-Aggregation Attention Module.*
+![Gated Residual Block and Attention Module](./image/Structure%20of%20the%20Gated%20Fine-tuning%20Residual%20Convolutional%20Block%20and%20Detailed%20diagram%20of%20the%20Dynamic%20Feature%20Self-Aggregation%20Attention%20Module.png)
 
 ---
 
 ## 📊 Dataset
 
-The network has been evaluated on a specialized dental CT dataset (`Teeth Dataset`), demonstrating significant capability in removing structural noise and artifacts while preserving sharp bone density boundaries and fine textures.
+A representative, anonymized sample from our private clinical dataset (`Teeth Dataset`), used for evaluating the network's performance.
 
 ![Teeth Dataset](./image/teeth%20dataset.png)
 ---
