@@ -33,11 +33,11 @@ Finally, the decoder maps the aggregated feature expressions back into a **Resid
 
 ---
 
-## 📊 Dataset & Results
+## 📊 Dataset
 
 The network has been evaluated on a specialized dental CT dataset (`Teeth Dataset`), demonstrating significant capability in removing structural noise and artifacts while preserving sharp bone density boundaries and fine textures.
 
-![Teeth Dataset Results](./image/teeth%20dataset.jpg)
+![Teeth Dataset](./image/teeth%20dataset.png)
 *Figure 4: Visual results on the Teeth Dataset. Top: Noisy CT inputs. Bottom: Ground-truth/Restored targets.*
 
 ---
