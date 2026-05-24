@@ -1,6 +1,4 @@
-
-```python
-readme_content = """# DFSMD-Net: Dynamic Feature Self-Aggregation Multi-scale Denoising Network for Medical Images
+# DFSMD-Net: Dynamic Feature Self-Aggregation Multi-scale Denoising Network for Medical Images
 
 This repository contains the official implementation of **DFSMD-Net**, a deep learning framework designed for accelerated deblurring, denoising, and reconstruction of medical images (e.g., dental CT scans) using dynamic feature self-aggregation and controllable gated residual learning.
 
@@ -59,16 +57,8 @@ Ensure your environment satisfies the following requirements:
 
 ### 1. Inference & Testing
 Run inference with pretrained weights using default settings:
-
-```
-
-```text
-File README.md successfully created.
-
 ```bash
 python main.py -i
-
-```
 
 *Note: Sample testing images are provided under `testingImages/sampleImages/`. The denoised outputs will be saved to `modelOutput/sampleImages/`.*
 
